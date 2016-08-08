@@ -16,6 +16,8 @@ Here's how I did it:
 
 ![Test image](../images/example.jpg?raw=true "Test title")
 
+![Test full path](https://github.com/attiot/starterkit-tutorials/raw/initial-readme-and-contributor-docs/images/example.jpg)
+
 ### Steps
 
 1. Setup my Starter Kit's *FRDM* ship with Avnet Cellular Shield
