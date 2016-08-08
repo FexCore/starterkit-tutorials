@@ -14,12 +14,7 @@ decided to hook up my cat feeder and water fountain to the cloud!
 
 Here's how I did it:
 
-![Test image](/attiot/starterkit-tutorials/images/example.jpg?raw=true "Test title")
-
-[[images/sample.jpg]]
-
 ![Test image](../images/example.jpg?raw=true "Test title")
-[[../images/sample.jpg]]
 
 ### Steps
 
