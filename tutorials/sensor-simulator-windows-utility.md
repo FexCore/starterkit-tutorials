@@ -44,7 +44,7 @@ Also, the utility takes the place of the USB serial debug terminal. You can stil
 “Show Debug” checkbox. But if the amount of debug information is too much and too fast, the current application may
 hang. It is therefore suggested not to use this checkbox with constant high volume streams of debug text.
 
-SLIKA
+![Show Debug](../images/sensor-simulator-windows-utility/windowsutility3.png) 
 
 ##Setting virtual sensor values
 
@@ -54,7 +54,7 @@ also use your laptop’s touchpad to scroll by using a two-finger scroll gesture
 For each of the two vertical slider sensors, there is an “Add random” checkbox. This can be used to add some dithering or
 noise to the sensor value. The amount of randomness added can be modified in the adjacent numeric up/down box.
 
-SLIKA
+![Setting virtual sensor values](../images/sensor-simulator-windows-utility/windowsutility4.png) 
 
 ###Sending virtual sensor values over USB and the update rate
 
@@ -62,7 +62,7 @@ From the sensor settings, a string with all the sensor values is composed that c
 the “To board” string in the image below. This can be done manually, by clicking the “Send All” button, or by checking the
 “Auto-Send all” box to its right. To change the update interval, un-check the box, change the interval value and then recheck the box again.
 
-SLIKA
+![Sending virtual sensor values over USB and the update rate](../images/sensor-simulator-windows-utility/windowsutility5.png) 
 
 Note that in addition to the 8 virtual sensor values, a text string can also be sent to the board. This can be used to simulate
 some sort of USB text input to the board. The “To board” string is received and decoded in the parse_usbhost_message()
@@ -81,14 +81,14 @@ Here the user can specify:
 * A minimum and maximum value for the slider and dial sensors
 * A default value for each sensor and selection (this will be updated when the program closes)
 
-SLIKA
+![Modifying virtual sensor names, units and ranges](../images/sensor-simulator-windows-utility/windowsutility6.png) 
 
 ##Modifying the mbed project for the FRDM-K64F
 
 In the config_me.h header file in the mbed project, the iSensorsToReport variable can be modified to specify which
 parameters get reported to the AT&T Flow Designer.
 
-SLIKA
+![Modifying the mbed project for the FRDM-K64F](../images/sensor-simulator-windows-utility/windowsutility7.png) 
 
 ###Default sensors to report to the Flow Designer
 
@@ -108,7 +108,7 @@ these sensor readings in a JSON string:
 
 The image below illustrates how this appears when viewed in the “Debug” tab at the bottom of the Flow canvas.
 
-SLIKA
+![Debug](../images/sensor-simulator-windows-utility/windowsutility8.png) 
 
 ### Reporting, also, GPS readings to Flow Designer
 
@@ -116,7 +116,7 @@ If we connect the Xadow GPS module, we have to change the iSensorsToReport param
 
 **iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER\_GPS;**
 
-SLIKA
+![Debug](../images/sensor-simulator-windows-utility/windowsutility9.png) 
 
 ###Reporting PMOD Sensor and Virtual Sensor readings to Flow Designer
 
@@ -127,5 +127,5 @@ program, we have to change the iSensorsToReport parameter to
 
 The “Debug” output window should then show us the following sensor information
 
-SLIKA
+![Debug](../images/sensor-simulator-windows-utility/windowsutility10.png) 
 
