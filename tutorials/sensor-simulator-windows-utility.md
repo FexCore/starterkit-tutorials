@@ -8,7 +8,7 @@ Windows PC and provides 8 virtual sensors. Each sensor can be configured to matc
 range. When the PC is connected to the FRDM-K64F board via USB, the reference design automatically gets updates
 from the virtual sensors in the form of a simple text string that contains their values.
 
-slika
+![Virtual sensors](../images/sensor-simulator-windows-utility/windowsutility1.png)
 
 ##Installing and running the Sensor Simulator utility
 
@@ -20,7 +20,7 @@ The file is available on [the Cellular IoT Starter Kit page](http://cloudconnect
 [http://cloudconnectkits.org/system/files/SensorSimulator_0.zip](http://cloudconnectkits.org/system/files/SensorSimulator_0.zip "cloudconnectkits.org/system/files/SensorSimulator_0.zip")
 
 Close all terminal programs (like PuTTY) that are communicating with your FRDM-K64F board over USB. Now doubleclick SensorSimulator.exe in the extracted folder. Make sure the port number matches that of the board and that the
-baudrate is 115200, then click SLIKA in the top left.
+baudrate is 115200, then click ![Open Com Port](../images/sensor-simulator-windows-utility/windowsutility2.png) in the top left.
 
 ##Resolving problems with running the Sensor Simulator utility
 
