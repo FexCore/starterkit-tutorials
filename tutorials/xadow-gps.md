@@ -75,11 +75,11 @@ valid.
 
 **COLD BOOT:**
 
-![Waiting for GPS initialization](../images/xadow-gps/XadowGPS3.png)
+![Cold boot](../images/xadow-gps/XadowGPS3.png)
 
 **WARM BOOT:**
 
-![Waiting for GPS initialization](../images/xadow-gps/XadowGPS4.png)
+![Warm boot](../images/xadow-gps/XadowGPS4.png)
 
 ##Wiring up the Xadow GPS module to the PMOD connector
 
@@ -99,25 +99,25 @@ examples.
 
 **IC GRABBERS:**
 
-![IC GRABBERS](../images/xadow-gps/XadowGPS5.png)
+![IC grabbers](../images/xadow-gps/XadowGPS5.png)
 
 **IC GRABBERS CLOSE UP:**
 
-![IC GRABBERS CLOSE UP](../images/xadow-gps/XadowGPS6.png)
+![IC grabbers close up](../images/xadow-gps/XadowGPS6.png)
 
 **HEADER PINS WITH JUMPER WIRES:**
 
-![HEADER PINS WITH JUMPER WIRES](../images/xadow-gps/XadowGPS7.png)
+![Header pins with jumper wires](../images/xadow-gps/XadowGPS7.png)
 
 **SOLDERED WIRES:**
 
-![SOLDERED WIRES](../images/xadow-gps/XadowGPS8.png)
+![Soldered wires](../images/xadow-gps/XadowGPS8.png)
 
 **THE TWO IMAGES BELOW SHOW HOW THE GPS MODULE CAN BE WIRED TO PLUG DIRECTLY INTO A PMOD SOCKET:**
 
-![THE IMAGE SHOWS HOW THE GPS MODULE CAN BE WIRED TO PLUG DIRECTLY INTO A PMOD SOCKET](../images/xadow-gps/XadowGPS9.png)
+![The image shows how the gps module can be wired to plug directly into a pmod socket](../images/xadow-gps/XadowGPS9.png)
 
-![THE IMAGE SHOWS HOW THE GPS MODULE CAN BE WIRED TO PLUG DIRECTLY INTO A PMOD SOCKET](../images/xadow-gps/XadowGPS10.png)
+![The image shows how the gps module can be wired to plug directly into a pmod socket](../images/xadow-gps/XadowGPS10.png)
 
 ##Wiring up the Xadow GPS module to the PMOD connector
 
