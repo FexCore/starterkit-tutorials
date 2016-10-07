@@ -5,7 +5,7 @@ UART from an NXP Kinetis KL02, which is a Cortex-M0 microcontroller (see [7]). T
 antenna. There are miniature Xadow connectors also that can be used for prototyping compact systems. This reference
 design does not use those connectors.
 
-slika
+![The Seeed Studio GPS v2 module](../images/xadow-gps/XadowGPS1.png)
 
 Here are some specifications:
 
@@ -41,7 +41,7 @@ Here are some specifications:
 Note that the FRDM-K64F board does not communicate with the GPS directly. It uses I2C to communicate with the
 Cortex-M0 on the Xadow module, which in turn communicates with the L70 GPS via a UART.
 
-slika
+![GPS I2C Interface](../images/xadow-gps/XadowGPS2.png)
 
 ##GPS commands
 
@@ -75,11 +75,11 @@ valid.
 
 **COLD BOOT:**
 
-slika
+![Waiting for GPS initialization](../images/xadow-gps/XadowGPS3.png)
 
-**COLD BOOT:**
+**WARM BOOT:**
 
-slika
+![Waiting for GPS initialization](../images/xadow-gps/XadowGPS4.png)
 
 ##Wiring up the Xadow GPS module to the PMOD connector
 
@@ -99,25 +99,25 @@ examples.
 
 **IC GRABBERS:**
 
-slika
+![IC GRABBERS](../images/xadow-gps/XadowGPS5.png)
 
 **IC GRABBERS CLOSE UP:**
 
-slika
+![IC GRABBERS CLOSE UP](../images/xadow-gps/XadowGPS6.png)
 
 **HEADER PINS WITH JUMPER WIRES:**
 
-slika
+![HEADER PINS WITH JUMPER WIRES](../images/xadow-gps/XadowGPS7.png)
 
 **SOLDERED WIRES:**
 
-slika
+![SOLDERED WIRES](../images/xadow-gps/XadowGPS8.png)
 
 **THE TWO IMAGES BELOW SHOW HOW THE GPS MODULE CAN BE WIRED TO PLUG DIRECTLY INTO A PMOD SOCKET:**
 
-slika
+![THE IMAGE SHOWS HOW THE GPS MODULE CAN BE WIRED TO PLUG DIRECTLY INTO A PMOD SOCKET](../images/xadow-gps/XadowGPS9.png)
 
-slika
+![THE IMAGE SHOWS HOW THE GPS MODULE CAN BE WIRED TO PLUG DIRECTLY INTO A PMOD SOCKET](../images/xadow-gps/XadowGPS10.png)
 
 ##Wiring up the Xadow GPS module to the PMOD connector
 
@@ -132,7 +132,7 @@ antenna bulkhead connectors.
 |   SDA  |    J4 PIN 10   |       SDA      |           GREEN          |
 |   SCL  |    J4 PIN 12   |       SCL      |          YELLOW          |
 
-slika
+![Wiring up the Xadow GPS module to the PMOD connector](../images/xadow-gps/XadowGPS11.png)
 
 ##Reference documents
 
