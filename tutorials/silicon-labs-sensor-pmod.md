@@ -6,7 +6,7 @@ used to “raise” the measured temperature when it is turned on.
 When the PMOD is connected, the reference design reads both these sensors, but the Si7020 temperature and humidity
 readings are not used because the HTS221 sensor on the cellular shield already provides temperature and humidity.
 
-slika
+![The Silicon Labs Sensor PMOD](../images/silicon-labs-sensor-pmod/SiliconLabsSensorPMOD1.png)
 
 ##Si1145 proximity and light sensor
 
@@ -25,7 +25,7 @@ interpreted as follows:
 * 24000 ≤ value < 30000 : Object Near
 * value ≥ 30000 : Object Very Near
 
-slika
+![Proximity and light sensor](../images/silicon-labs-sensor-pmod/SiliconLabsSensorPMOD2.png)
 
 ##Si7020 temperature and humidity sensor
 
@@ -33,7 +33,7 @@ The Si7020 (see [9]) is a relative humidity (0–80% ± 4%) and temperature (-10
 package.  
 The application code reads the relevant registers and scales them as required.
 
-slika
+![Humidity and temperature sensor](../images/silicon-labs-sensor-pmod/SiliconLabsSensorPMOD3.png)
 
 ##Wiring up the SiLabs PMOD Sensor to the PMOD connector
 
@@ -50,7 +50,7 @@ connectors.
 |   SDA  |     Pin4     |     Pin4    |           Pin4           |
 |   SCL  |     Pin3     |     Pin3    |          YELLOW          |
 
-slika
+![Wiring up the SiLabs PMOD Sensor to the PMOD connector](../images/silicon-labs-sensor-pmod/SiliconLabsSensorPMOD4.png)
 
 ##Reference documents
 
