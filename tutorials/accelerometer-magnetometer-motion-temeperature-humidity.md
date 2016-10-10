@@ -7,8 +7,7 @@ frequency(int Hz) function.
 Note that mbed uses the I2C slave address in a way that can be considered to be unusual. The first byte AAAAAAADb of
 an I2C access usually consists of a 7-bit address in the most significant bits followed by a direction bit (0 for write, 1 for
 read). In the mbed i2c.write() and i2c.read() commands, the 8-bit I2C slave address is the specified slave address << 1. If
-the sensor datasheet therefore specifies that its I2C address is 0x30, the mbed write would be 
-i2c.write(0x70, …..) and the read will be i2c.write(0x70, ….) and what you see on the bus would be an 0x70 for a write and an 0x71 for a read.
+the sensor datasheet therefore specifies that its I2C address is 0x30, the mbed write would be i2c.write(0x70, …..) and the read will be i2c.write(0x70, ….) and what you see on the bus would be an 0x70 for a write and an 0x71 for a read.
 
 ##Sensor I2C slave addresses
 
