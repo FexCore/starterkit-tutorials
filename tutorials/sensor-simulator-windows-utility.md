@@ -40,7 +40,9 @@ You can install the latest .NET version by searching for it. Currently it is ver
 If you are unsure of which version of .NET you currently have installed, you can enter the command below at a command
 prompt and it will list the versions that are installed on your machine.
 
-**dir %WINDIR%\Microsoft.Net\Framework\v\***
+```
+dir %WINDIR%\Microsoft.Net\Framework\v\*
+```
 
 ###Show Debug
 
@@ -98,7 +100,9 @@ parameters get reported to the AT&T Flow Designer.
 
 The **default** assignment for this variable (shown above) is:
 
-**iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER;**
+```
+iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER;
+```
 
 With this setting, the board reports readings from the HTS221 temperature & humidity sensor and 3-axis accelerometer
 readings from the FXOS8700CQ motion sensor. These values are sent to the HTTP IN /climate port in Flow with field
@@ -118,7 +122,9 @@ The image below illustrates how this appears when viewed in the “Debug” tab 
 
 If we connect the Xadow GPS module, we have to change the iSensorsToReport parameter to
 
-**iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER\_GPS;**
+```
+iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER\_GPS;
+```
 
 ![Debug](../images/sensor-simulator-windows-utility/windowsutility9.png) 
 
@@ -127,7 +133,9 @@ If we connect the Xadow GPS module, we have to change the iSensorsToReport param
 Similarly, if we connect the SiLabs PMOD sensor and also want to view the virtual sensors sent over USB from the Windows
 program, we have to change the iSensorsToReport parameter to
 
-**iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER\_PMODSENSORS\_VIRTUALSENSORS;**
+```
+iSensorsToReport = TEMP\_HUMIDITY\_ACCELEROMETER\_PMODSENSORS\_VIRTUALSENSORS;
+```
 
 The “Debug” output window should then show us the following sensor information
 
