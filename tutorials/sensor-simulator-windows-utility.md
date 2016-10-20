@@ -1,5 +1,9 @@
 #Sensor Simulator Windows utility
 
+|      Author      | Created At |
+|:----------------:|:----------:|
+| Starter Kit Team | 2016-10-18 |
+
 ##Why virtual sensors?
 
 For testing and demonstration purposes, it is often useful to specify exactly what a sensor reading should be or to
