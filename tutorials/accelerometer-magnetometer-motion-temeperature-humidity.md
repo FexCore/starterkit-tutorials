@@ -1,5 +1,9 @@
 #Accelerometer Magnetometer Motion Temeperature Humidity
 
+|      Author      | Created At |
+|:----------------:|:----------:|
+| Starter Kit Team | 2016-10-19 |
+
 ##Specifics for mbed
 
 The default mbed I2C interface clock rate is 100 kHz. If you want to operate at a different frequency, you can use the i2c.
